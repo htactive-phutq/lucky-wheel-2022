@@ -145,7 +145,7 @@ $( ".lammoipopupnhantien" ).hover(
           'responsive': true,
           'segments': [{
               'fillStyle': '#910f06',
-              'text': 'Ô mất lượt',
+              'text': 'Ô vui vẻ',
               'size': winwheelPercentToDegrees(15),
               'textFontSize': 30,
               'textFillStyle': '#ffffff'
@@ -176,7 +176,7 @@ $( ".lammoipopupnhantien" ).hover(
           }, {
               'fillStyle': '#ab6f03',
               'text': '20.000 VNĐ',
-              'size': winwheelPercentToDegrees(10),
+              'size': winwheelPercentToDegrees(12),
               'textFontSize': 20,
               'textFillStyle': '#ffffff'
           }, {
@@ -188,7 +188,7 @@ $( ".lammoipopupnhantien" ).hover(
           }, {
               'fillStyle': '#ab6f03',
               'text': '100.000 VNĐ',
-              'size': winwheelPercentToDegrees(5),
+              'size': winwheelPercentToDegrees(3),
               'textFontSize': 16,
               'textFillStyle': '#ffffff'
           }],
@@ -330,7 +330,7 @@ $( ".lammoipopupnhantien" ).hover(
               document.getElementById("xuatluotquay").innerHTML = solanquay - dem; // Xuất kết quả
               
       
-              if (indicatedSegment.text == 'Ô mất lượt') { // Nếu quay vào 0k
+              if (indicatedSegment.text == 'Ô vui vẻ') { // Nếu quay vào 0k
                   matluot.play(); // Bật nhạc fail
 
                   document.getElementById("annhantien").style.display = "none"; // Ẩn nút nhận tiền
@@ -349,7 +349,7 @@ $( ".lammoipopupnhantien" ).hover(
               document.getElementById("xuatluotquay").innerHTML = "0";
               $(".nutbatdau").css("background-image", "url(img/controhetluot.png)");
       
-              if (indicatedSegment.text == 'Ô mất lượt') {
+              if (indicatedSegment.text == 'Ô vui vẻ') {
                   matluot.play(); // Bật nhạc fail
 
                   document.getElementById("annhantien").style.display = "none"; // Ẩn nút nhận tiền
